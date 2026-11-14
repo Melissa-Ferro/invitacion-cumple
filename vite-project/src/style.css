@@ -1,6 +1,44 @@
-body{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9UuBo7jTkI2_hCLdhvO4rF7pblUBMI0zuvK3p5GgzWQRjxGycn8CNTuA&s=10);
-background-repeat: no-repeat;
-background-position:center;
-background-size:cover;
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Rouge+Script&display=swap');
+
+
+body {
+  min-height: 100vh;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9UuBo7jTkI2_hCLdhvO4rF7pblUBMI0zuvK3p5GgzWQRjxGycn8CNTuA&s=10");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+img{
+    width: 18rem;
+    height: 22rem;
+    display: flex;
+   margin-left: auto;
+   margin-top: auto;
+}
+
+p,h1,h2, a {
+  font-family: "Corben", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  text-align: center;
+}
+a{
+   color:black;
+}
+
+.cuadrado {
+    width: 50%;
+    height: auto;
+    border: 8px double #020102;
+    margin: 50px auto;
+}
+
+
+table.table {
+  border: 2px solid #020102;
+  border-collapse: collapse;
+}
+
+
 
